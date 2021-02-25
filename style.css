@@ -25,7 +25,8 @@ p, span {
     background: rgba(196, 196, 196, 0.3);
     border-radius: 10px;
     padding: 2%;
-    width: 35vw;
+    width: 30vw;
+    margin-right: 10px;
 }
 
 .proffessional-information {
@@ -206,5 +207,69 @@ p, span {
 .hobbies ul li span{
     color: #E5E5E5;
     margin-top: 2%;
+}
+
+/* proffessional-information */
+
+.proffessional-information {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    padding: 4% 2%;
+    width: 30vw;
+    color: #343434;
+}
+
+.grey-block {
+    border-top: 1px solid #545454;
+}
+
+.proffessional-block {
+    display: flex;
+    flex-direction: column;
+    padding: 7px 14px;
+    margin-bottom: 30px;
+}
+
+.proffessional-block span.title{
+    font-size: 20px;
+    background: #545454;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 1vh 3vw;
+    width: fit-content;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -14px;
+}
+
+.proffessional-block span.subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.proffessional-block p{
+    font-size: 12px;
+    margin-top: 1%;
+}
+
+.proffessional-block p.text{
+    color: #73808D;
+}
+
+.images-block{
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 20px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.img-skill{
+    width: 5vw;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
 }
 
