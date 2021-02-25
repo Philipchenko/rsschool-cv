@@ -1,6 +1,5 @@
-html, body {
-    height: 100vh;
-    overflow: hidden;
+body {
+    height: 100%;
 }
 
 p, span {
@@ -10,7 +9,7 @@ p, span {
 
 .main-wrapper {
     height: 100%;
-    background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+    background: linear-gradient( rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -171,3 +170,41 @@ p, span {
     padding-left: 1rem;
     list-style-type: none;
 }
+
+.hobbies {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 7px 0;
+    margin-top: 12px;
+}
+
+.hobbies p{
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 7px 14px;
+    width: fit-content;
+}
+
+.hobbies ul{
+    padding-left: 1rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hobbies ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+.hobbies ul li img{
+    width: 4vw;
+}
+
+.hobbies ul li span{
+    color: #E5E5E5;
+    margin-top: 2%;
+}
+
