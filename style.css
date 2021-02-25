@@ -112,3 +112,43 @@ p, span {
 .industry_knowledge ul{
     padding-left: 1rem;
 }
+
+.languages {
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 7px 14px;
+    margin-top: 12px;
+}
+
+.languages p{
+    font-size: 25px;
+}
+
+.languages ul{
+    padding-left: 1rem;
+    list-style-type: none;
+}
+
+.languages ul li{
+    display: flex;
+    align-items: center;
+}
+
+.languages ul li span{
+    margin-right: 2vw;
+}
+
+.circle{
+    width: 1vw;
+    height: 1vw;
+    margin-right: 0.5vw;
+    border-radius: 50%;
+    background: #CECACA;
+}
+
+.circle.dark {
+    background: rgba(84, 84, 84, 0.6);
+}
