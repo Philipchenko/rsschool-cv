@@ -152,3 +152,22 @@ p, span {
 .circle.dark {
     background: rgba(84, 84, 84, 0.6);
 }
+
+.social {
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 7px 14px;
+    margin-top: 12px;
+}
+
+.social p{
+    font-size: 25px;
+}
+
+.social ul{
+    padding-left: 1rem;
+    list-style-type: none;
+}
